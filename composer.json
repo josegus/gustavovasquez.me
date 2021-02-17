@@ -1,0 +1,9 @@
+{
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    },
+    "scripts": {
+        "jigsaw": "./vendor/bin/jigsaw",
+        "serve": "./vendor/bin/jigsaw serve"
+    }
+}
