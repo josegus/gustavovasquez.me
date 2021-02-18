@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="/works">
+        <meta name="description" content="Look ma! I finally made my personal website">
+        <title>Gustavo Vasquez</title>
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=add5777eebf0e8347158">
+        <script defer src="/assets/build/js/main.js?id=0c20e0a8e53fd4086147"></script>
+                <script defer src="https://kit.fontawesome.com/b9038e8f1e.js" crossorigin="anonymous"></script>
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    </head>
+    <body class="text-gray-900 font-sans antialiased">
+        <div x-data="{ open: false }">
+    <!-- waves -->
+    <div class="hidden md:block absolute w-full h-40 -z-10 bg-gradient-to-t from-blue-900 to-purple-700">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-1.41,84.38 C387.97,153.45 252.54,19.23 587.75,122.86 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg>
+    </div>
+
+    <!-- navbar -->
+    <div class="text-white text-xl px-4 py-2 md:pt-9 lg:container mx-auto bg-gradient-to-t from-blue-900 to-purple-700 md:bg-none">
+
+        <!-- desktop -->
+        <div class="hidden md:flex justify-between items-center">
+            <!-- main links -->
+            <div class="flex flex-row text-xl">
+                <a class="" href="/">Me</a>
+                <a class="border-b-2 ml-6" href="/works">Works</a>
+                <a class=" ml-6" href="/learning">Learning</a>
+            </div>
+
+            <!-- social links -->
+            <div class="flex flex-row">
+                <a class="pr-3" href="https://github.com/josegus" target="_blank">
+                    <span class="fab fa-github"></span>
+                </a>
+                <a class="px-3" href="https://www.linkedin.com/in/gustavo-vasquez/" target="_blank">
+                    <span class="fab fa-linkedin"></span>
+                </a>
+                <a class="px-3" href="https://twitter.com/gusvasquezdev" target="_blank">
+                    <span class="fab fa-twitter"></span>
+                </a>
+                <a class="px-3" href="mailto:jgvv15@gmail.com">
+                    <span class="fa fa-envelope"></span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- mobile -->
+        <div class="md:hidden">
+            <div class="flex justify-between items-center">
+                <!-- brand name -->
+                <a class="text-base" href="/">Gustavo Vasquez</a>
+
+                <!-- menu bars -->
+                <button @click="open = !open" class="flex">
+                    <svg class="w-6 h-6 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div x-show="open">
+                <!-- main links -->
+                <div class="flex flex-col text-base mt-2">
+                   <div><a class="" href="/">Me</a></div>
+                   <div><a class="border-b-2" href="/works">Works</a></div>
+                   <div><a class="" href="/learning">Learning</a></div>
+                </div>
+
+                <!-- social links -->
+                <div class="flex-row mt-4">
+                    <a class="pr-3" href="https://github.com/josegus" target="_blank">
+                        <span class="fab fa-github"></span>
+                    </a>
+                    <a class="px-3" href="https://www.linkedin.com/in/gustavo-vasquez/" target="_blank">
+                        <span class="fab fa-linkedin"></span>
+                    </a>
+                    <a class="px-3" href="https://twitter.com/gusvasquezdev" target="_blank">
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                    <a class="px-3" href="mailto:jgvv15@gmail.com">
+                        <span class="fa fa-envelope"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <main class="mt-8 md:mt-32 pb-16 px-4 lg:px-0">
+                <div class="mx-auto max-w-4xl text-justify space-y-10">
+        <div>
+            <h1 class="text-xl font-semibold">Works</h1>
+            <p class="mt-2">These are some of the mosts importants projects I've developed.</p>
+        </div>
+
+        <!-- Snap -->
+        <div>
+            <h2 class="text-lg font-semibold">Snap</h2>
+            <p class="mt-2">Marketplace for local businesses, with a variety of products.</p>
+            <p class="mt-2">
+                Our main goal was to help local companies have a presence on the internet and can market their physical products through our
+                service.
+            </p>
+            <p class="mt-2">
+                It has <span class="text-pink-500 font-bold italic">online payments</span>, stock control and inventory <span class="text-pink-500 font-bold italic">notificacions</span>
+                de inventario.
+            </p>
+
+            <div class="mt-4 flex flex-wrap justify-center">
+                <a class="mx-4" href="https://laravel.com" target="_blank">
+    <img class="w-12" src="/assets/images/laravel.png" alt="Laravel">
+</a>
+                <a class="mx-4" href="https://vuejs.org" target="_blank">
+    <img class="w-12" src="/assets/images/vuejs.png" alt="Vue.js">
+</a>
+                <a class="mx-4" href="https://laravel-livewire.com" target="_blank">
+    <img class="w-12" src="/assets/images/livewire.png" alt="Livewire">
+</a>
+                <a class="mx-4" href="https://getbootstrap.com/" target="_blank">
+    <img class="w-12" src="https://img.icons8.com/color/452/bootstrap.png" alt="Bootstrap">
+</a>
+                <a class="mx-4" href="https://redis.io/" target="_blank">
+    <img class="w-12" src="/assets/images/redis.png" alt="Redis">
+</a>
+            </div>
+
+            <a class="mt-4 inline-block text-blue-600 underline" href="https://snap.com.bo" target="_blank">snap.com.bo</a>
+        </div>
+
+
+        <!-- FOCA -->
+        <div>
+            <h2 class="text-lg font-semibold">FOCA (SAAS)</h2>
+            <p class="mt-2">
+                Electronic billing system, developed for Bolivian companies.
+            </p>
+            <p class="mt-2">
+                The biggest challenge here was to develop a simple, elegant and useful billing web application, and give the
+                users the opportunity to try it for free.
+            </p>
+            <p class="mt-2">
+                This was made possible thanks to the fact that we implemented a
+                <a class="hover:underline text-pink-500 font-bold italic"
+                    href="https://tomschlick.com/2017/07/25/laracon-2017-multi-tenancy-talk/" target="_blank">multi-tenant</a>
+                architecture, allowing us to create a Laravel SAAS web application.
+            </p>
+
+            <div class="mt-4 flex flex-wrap justify-center">
+                <a class="mx-4" href="https://laravel.com" target="_blank">
+    <img class="w-12" src="/assets/images/laravel.png" alt="Laravel">
+</a>
+                <a class="mx-4" href="https://vuejs.org" target="_blank">
+    <img class="w-12" src="/assets/images/vuejs.png" alt="Vue.js">
+</a>
+                <a class="mx-4" href="https://tailwindcss.com" target="_blank">
+    <img class="w-12" src="/assets/images/tailwindcss.png" alt="Tailwindcss">
+</a>
+                <a class="mx-4" href="https://getbootstrap.com/" target="_blank">
+    <img class="w-12" src="https://img.icons8.com/color/452/bootstrap.png" alt="Bootstrap">
+</a>
+                <a class="mx-4" href="https://redis.io/" target="_blank">
+    <img class="w-12" src="/assets/images/redis.png" alt="Redis">
+</a>
+            </div>
+
+            <a class="mt-4 inline-block text-blue-600 underline" href="https://foca.com.bo" target="_blank">foca.com.bo</a>
+        </div>
+
+        <!-- UAGRM -->
+        <div>
+            <h2 class="text-lg font-semibold">Universidad Autónoma Gabriel René Moreno (UAGRM)</h2>
+            <p class="mt-2">
+                Official website of the Universidad Autónoma Gabriel René Moreno.
+            </p>
+            <p class="mt-2">
+                Probably the biggest challenge I was involved in: building my new university site from scratch & CMS.
+            </p>
+            <p class="mt-2">
+                Working under the guidance of engineers from the <span class="italic underline">Dirección de Tecnologías de la Información (DTIC)</span>,
+                we developed the new <span class="text-pink-500 font-bold italic">informative & administratite web portal</span> of the university,
+                feeding its content through its own <span class="text-pink-500 font-bold italic">CMS</span>.
+            </p>
+
+            <div class="mt-4 flex flex-wrap justify-center">
+                <a class="mx-4" href="https://laravel.com" target="_blank">
+    <img class="w-12" src="/assets/images/laravel.png" alt="Laravel">
+</a>
+                <a class="mx-4" href="https://getbootstrap.com/" target="_blank">
+    <img class="w-12" src="https://img.icons8.com/color/452/bootstrap.png" alt="Bootstrap">
+</a>
+                <a class="mx-4" href="https://redis.io/" target="_blank">
+    <img class="w-12" src="/assets/images/redis.png" alt="Redis">
+</a>
+            </div>
+
+            <a class="mt-4 inline-block text-blue-600 underline" href="https://www.uagrm.edu.bo" target="_blank">www.uagrm.edu.bo</a>
+        </div>
+    </div>
+        </main>
+    </body>
+</html>

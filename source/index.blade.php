@@ -2,39 +2,39 @@
 
 @section('body')
 <div class="max-w-2xl mx-auto text-center">
-    <h1 class="font-serif text-4xl underline">Sobre mi</h1>
+    <h1 class="font-serif text-4xl underline">About me</h1>
 
     <p class="mt-4">
-        Mi nombre es <span class="underline">Gustavo Vasquez</span>, soy desarrollador web Full-Stack, titulado en ingeniería en sistemas, de la ciudad de Santa Cruz, Bolivia.
+        My name is <span class="underline">Gustavo Vasquez</span>, I'm a full-Stack web developer, with a
+        degree in systems engineering, from the city of Santa Cruz, Bolivia.
     </p>
 
     <p class="mt-4">
-        A lo largo de mi vida, he trabajado en diferentes proyectos que me han permitido crecer
-        profesionalmente, siempre siguiendo las mejores prácticas y usando las mejores
-        herramientas para generar productos de calidad. Puedes ver mis trabajos mas
-        destacados <a class="text-blue-600 underline" href="/trabajos">aquí</a>.
+        Throughout my life, I have worked on different projects that have allowed me to grow professionally, always following
+        the best practices and using the best tools to generate quality products. You can see my most outstanding works <a class="text-blue-600 underline" href="/works">here</a>.
     </p>
 
     <p class="mt-4">
-        En mi tiempo libre, me gusta jugar videojuegos con amigos (los viernes de dota son casi una obligación <img class="inline w-8" src="/assets/images/smile-face.svg" alt="Smile face icon">).
+        In my spare time, I like to play video games with friends <br>
+        (playing DOTA Fridays at night are almost a must <img class="inline w-8" src="/assets/images/smile-face.svg" alt="Smile face icon">).
     </p>
 
-    <h1 class="font-serif mt-20 text-4xl underline">Mi stack</span></h1>
+    <h1 class="font-serif mt-20 text-4xl underline">My stack</span></h1>
 
     <p class="mt-4">
-        Desde que conocí Laravel (allá por la versión 5.0) me gustó mucho lo simple y al mismo tiempo poderoso que es
-        este framework, así que decidí especializarme en él.
-    </p>
-
-    <p class="mt-4">
-        Diariamente utilizo otras herramientas y tecnologías conocidas dentro del ecosistema
-        de Laravel,  pero personalmente considero que estas son las mejores.
+        Since I met Laravel (back in version 5.0) I really liked how simple and at the same time powerful this framework is, so
+        I decided to specialize in it.
     </p>
 
     <p class="mt-4">
-        Son mi <span class="italic">"dream team"</span> <img class="inline w-8" src="/assets/images/muscle.svg" alt="Muscle icon">
-        <span class="ml-1">, ya que con ellas puedo divertirme mientras trabajo
-        y me han permitido encarar proyectos de manera simple y rápida.</span>
+        I use other known tools (like VS Code, you can find my current workspace settings
+        <a class="text-blue-600 underline" href="https://gist.github.com/josegus/629a68884a0028b0bc4b8e349b133f25" target="_blank">here</a>)
+        and technologies within the Laravel ecosystem on a daily basis, but personally I find these to be the best.
+    </p>
+
+    <p class="mt-4">
+        They are my <span class="italic">"dream team"</span> <img class="inline w-8" src="/assets/images/muscle.svg" alt="Muscle icon">
+        <span class="ml-1">, since with them I can have fun while I work and they have allowed me to tackle projects simply and quickly.</span>
     </p>
 
     <div class="mt-8 flex justify-center">
