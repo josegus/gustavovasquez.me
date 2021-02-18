@@ -14,9 +14,9 @@
         <div class="hidden md:flex justify-between items-center">
             <!-- main links -->
             <div class="flex flex-row text-xl">
-                <a class="{{ $page->selected('') }}" href="/">Me</a>
-                <a class="{{ $page->selected('works') }} ml-6" href="/works">Works</a>
-                <a class="{{ $page->selected('learning') }} ml-6" href="/learning">Learning</a>
+                <a class="{{ $page->isSelected('') ? 'border-b-2' : '' }}" href="/">Me</a>
+                <a class="{{ $page->isSelected('works') ? 'border-b-2' : '' }} ml-6" href="/works">Works</a>
+                <a class="{{ $page->isSelected('learning') ? 'border-b-2' : '' }} ml-6" href="/learning">Learning</a>
             </div>
 
             <!-- social links -->
@@ -44,10 +44,14 @@
                 <a class="text-base" href="/">Gustavo Vasquez</a>
 
                 <!-- menu bars -->
-                <button @click="open = !open" class="flex">
-                    <svg class="w-6 h-6 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                <button @click="open = !open" class="flex focus:outline-none">
+                    <svg x-show="!open" class="w-6 h-6 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+
+                    <svg x-show="open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                 </button>
             </div>
@@ -55,9 +59,9 @@
             <div x-show="open">
                 <!-- main links -->
                 <div class="flex flex-col text-base mt-2">
-                   <div><a class="{{ $page->selected('') }}" href="/">Me</a></div>
-                   <div><a class="{{ $page->selected('works') }}" href="/works">Works</a></div>
-                   <div><a class="{{ $page->selected('learning') }}" href="/learning">Learning</a></div>
+                   <div><a class="{{ $page->isSelected('') ? 'border-b-2' : '' }}" href="/">Me</a></div>
+                   <div><a class="{{ $page->isSelected('works') ? 'border-b-2' : '' }}" href="/works">Works</a></div>
+                   <div><a class="{{ $page->isSelected('learning') ? 'border-b-2' : '' }}" href="/learning">Learning</a></div>
                 </div>
 
                 <!-- social links -->

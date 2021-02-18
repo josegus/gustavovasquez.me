@@ -5,7 +5,7 @@
     <h1 class="font-serif text-4xl underline">About me</h1>
 
     <p class="mt-4">
-        My name is <span class="underline">Gustavo Vasquez</span>, I'm a full-Stack web developer, with a
+        My name is <span class="underline">Gustavo Vasquez</span>, I'm a full-stack web developer, with a
         degree in systems engineering, from the city of Santa Cruz, Bolivia.
     </p>
 
@@ -16,7 +16,7 @@
 
     <p class="mt-4">
         In my spare time, I like to play video games with friends <br>
-        (playing DOTA Fridays at night are almost a must <img class="inline w-8" src="/assets/images/smile-face.svg" alt="Smile face icon">).
+        (playing DOTA fridays at night are almost a must <img class="inline w-8" src="/assets/images/smile-face.svg" alt="Smile face icon">).
     </p>
 
     <h1 class="font-serif mt-20 text-4xl underline">My stack</span></h1>

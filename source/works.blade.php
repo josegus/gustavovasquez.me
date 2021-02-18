@@ -16,8 +16,11 @@
                 service.
             </p>
             <p class="mt-2">
-                It has <span class="text-pink-500 font-bold italic">online payments</span>, stock control and inventory <span class="text-pink-500 font-bold italic">notificacions</span>
-                de inventario.
+                It has <span class="text-pink-500 font-bold italic">online payments</span>,
+                supports <span class="text-pink-500 font-bold italic">variable products</span>,
+                stock control and inventory <span class="text-pink-500 font-bold italic">notificacions</span>,
+                does <span class="text-pink-500 font-bold italic">lazy load</span> images
+                and it is optimized for <span class="text-pink-500 font-bold italic">SEO</span>.
             </p>
 
             <div class="mt-4 flex flex-wrap justify-center">
@@ -43,11 +46,15 @@
                 users the opportunity to try it for free.
             </p>
             <p class="mt-2">
-                This was made possible thanks to the fact that we implemented a
+                We implemented a
                 <a class="hover:underline text-pink-500 font-bold italic"
                     href="https://tomschlick.com/2017/07/25/laracon-2017-multi-tenancy-talk/" target="_blank">multi-tenant</a>
-                architecture, allowing us to create a Laravel SAAS web application.
+                architecture, which allowed us to create a Laravel SAAS web application.
             </p>
+            <p class="mt-2">
+                It has two type of <span class="text-pink-500 font-bold italic">invoices</span> (letter and roll),
+                billing email <span class="text-pink-500 font-bold italic">notifications</span>
+                and <span class="text-pink-500 font-bold italic">privileges</span> per user.</p>
 
             <div class="mt-4 flex flex-wrap justify-center">
                 @include('_partials.laravel')
@@ -71,7 +78,7 @@
             </p>
             <p class="mt-2">
                 Working under the guidance of engineers from the <span class="italic underline">Dirección de Tecnologías de la Información (DTIC)</span>,
-                we developed the new <span class="text-pink-500 font-bold italic">informative & administratite web portal</span> of the university,
+                we developed the new <span class="text-pink-500 font-bold italic">informative & administrative web portal</span> of the university,
                 feeding its content through its own <span class="text-pink-500 font-bold italic">CMS</span>.
             </p>
 

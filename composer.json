@@ -4,6 +4,7 @@
     },
     "scripts": {
         "jigsaw": "./vendor/bin/jigsaw",
-        "serve": "./vendor/bin/jigsaw serve"
+        "serve": "./vendor/bin/jigsaw serve",
+        "serve-prod": "./vendor/bin/jigsaw serve production"
     }
 }

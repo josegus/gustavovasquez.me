@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="gustavovasquez.me/404">
-        <meta name="description" content="Look ma! I finally made my personal website">
-        <title>Gustavo Vasquez</title>
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=add5777eebf0e8347158">
-        <script defer src="/assets/build/js/main.js?id=0c20e0a8e53fd4086147"></script>
-                <script defer src="https://kit.fontawesome.com/b9038e8f1e.js" crossorigin="anonymous"></script>
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    </head>
-    <body class="text-gray-900 font-sans antialiased">
-        <div x-data="{ open: false }">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="gustavovasquez.me/404">
+    <meta name="description" content="I&#039;m a software engineer from Santa Cruz, Bolivia, building awesome things using Laravel">
+    <title>Gustavo Vasquez</title>
+        <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=9a842cabbc0c063bbb42">
+    <script defer src="/assets/build/js/main.js?id=0c20e0a8e53fd4086147"></script>
+        <script defer src="https://kit.fontawesome.com/b9038e8f1e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-gray-900 font-sans antialiased">
+    <div x-data="{ open: false }">
     <!-- waves -->
     <div class="hidden md:block absolute w-full h-40 -z-10 bg-gradient-to-t from-blue-900 to-purple-700">
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -59,10 +72,14 @@
                 <a class="text-base" href="/">Gustavo Vasquez</a>
 
                 <!-- menu bars -->
-                <button @click="open = !open" class="flex">
-                    <svg class="w-6 h-6 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                <button @click="open = !open" class="flex focus:outline-none">
+                    <svg x-show="!open" class="w-6 h-6 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+
+                    <svg x-show="open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                 </button>
             </div>
@@ -95,14 +112,15 @@
     </div>
 </div>
 
-        <main class="mt-8 md:mt-32 pb-16 px-4 lg:px-0">
-                <div class="container mx-auto text-center">
+    <main class="mt-8 md:mt-32 pb-16 px-4 lg:px-0">
+            <div class="container mx-auto text-center">
         <h1 class="text-4xl md:text-8xl">404</h1>
         <p class="mt-4">The page you are looking for doesn't exist</p>
         <div class="mt-4">
             Return to <a class="text-blue-600 underline" href="/">homepage</a>
         </div>
     </div>
-        </main>
-    </body>
+    </main>
+</body>
+
 </html>
